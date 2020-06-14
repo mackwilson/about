@@ -14,11 +14,11 @@ function Header() {
           />
           <ContactBtn
             text="LinkedIn"
-            link="www.linkedin.com/in/mack-wilson"
+            link="https://www.linkedin.com/in/mack-wilson"
           />
           <ContactBtn
             text="Resume"
-            link="about/src/comps/Resume.pdf" //this is not working!!!
+            link="./Resume.pdf" //this is not working!!!
           />
         </div>
       </div>
