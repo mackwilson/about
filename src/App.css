@@ -1,24 +1,53 @@
-.Header {
-  text-align: center;
+#dark-section {
   background: #46567C;
-  padding: 9vh 0 3vh 0;
+  padding: 9vh 0 2vh 0;
+}
+
+#dark-section h2 {
+  color: #EF837D;
+}
+
+#dark-section p {
+  color: #fff;
+}
+
+#light-section {
+  padding: 9vh 0 2vh 0;
+}
+
+#light-section h2 {
+  color: #46567C;
+}
+
+
+h2 {
+  font-size: 40pt;
+}
+
+p {
+  font-size: 18pt;
+}
+
+
+#text {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .headerTextBox {
-  width: 60%;
-  /* height: 20vh; */
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   border-top: 1px solid #EF837D;
   border-bottom: 1px solid #EF837D;
-  padding: 2vh;
+  padding: 6vh 2vh;
 }
+
 
 h1 {
   color: #EF837D;
   vertical-align: middle;
   margin: 0;
-  font-size: 60pt;
+  font-size: 70pt;
   font-weight: 500;
 }
 
@@ -33,9 +62,10 @@ h1 {
 
 .Navbar {
   background: #46567C;
-  text-align: center;
-  z-index: 0;
-  position: absolute;
+  text-align: left;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 .navBtn {
@@ -48,6 +78,10 @@ h1 {
 .navBtn:hover {
   color: #46567C;
   background: #C1C0C0;
+}
+
+.App {
+  position: relative;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {

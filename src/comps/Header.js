@@ -5,8 +5,8 @@ import pdf from '../assets/Resume.pdf';
 
 function Header() {
   return (
-    <div className="Header">
-      <div className="headerTextBox">
+    <div className="Header" id="dark-section">
+      <div className="headerTextBox" id="text">
         <h1>Mack Wilson</h1>
         <div className="topContactButtons">
           <ContactBtn
