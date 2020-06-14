@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactBtn from './ContactBtn.js';
+import pdf from '../assets/Resume.pdf';
 
 
 function Header() {
@@ -18,7 +19,7 @@ function Header() {
           />
           <ContactBtn
             text="Resume"
-            link="./Resume.pdf" //this is not working!!!
+            link={pdf} //this is not working!!!
           />
         </div>
       </div>
