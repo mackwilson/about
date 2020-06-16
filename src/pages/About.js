@@ -3,7 +3,7 @@ import text from '../assets/text.json';
 
 function About() {
   return (
-    <div className="About" id="dark-section">
+    <div id="About" className="dark-section">
       <div id="text">
 
         <h2>About</h2>

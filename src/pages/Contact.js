@@ -1,13 +1,17 @@
 import React from 'react';
+import text from '../assets/text.json';
 import ContactBtn from '../comps/ContactBtn.js';
 import pdf from '../assets/Resume.pdf';
 
-
-function Header() {
+function Contact() {
   return (
-    <div id="Header" className="dark-section">
-      <div className="headerTextBox" id="text">
-        <h1>Mack Wilson</h1>
+    <div id="Contact" className="dark-section">
+      <div id="text">
+
+        <h2>Contact</h2>
+
+        <p>{text.contact}</p>
+
         <div className="contactButtons">
           <ContactBtn
             text="Email"
@@ -22,9 +26,10 @@ function Header() {
             link={pdf}
           />
         </div>
+
       </div>
     </div>
   );
 }
 
-export default Header;
+export default Contact;
