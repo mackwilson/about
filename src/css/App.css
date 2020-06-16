@@ -1,21 +1,21 @@
-#dark-section {
+.dark-section {
   background: #46567C;
-  padding: 9vh 0 2vh 0;
+  padding: 8vh 0 6vh 0;
 }
 
-#dark-section h2 {
+.dark-section h2 {
   color: #EF837D;
 }
 
-#dark-section p {
+.dark-section p {
   color: #fff;
 }
 
-#light-section {
-  padding: 9vh 0 2vh 0;
+.light-section {
+  padding: 8vh 0 6vh 0;
 }
 
-#light-section h2 {
+.light-section h2 {
   color: #46567C;
 }
 
@@ -40,6 +40,11 @@ p {
   border-top: 1px solid #EF837D;
   border-bottom: 1px solid #EF837D;
   padding: 6vh 2vh;
+  margin-top: 6vh;
+}
+
+.contactButtons {
+  text-align: center;
 }
 
 
@@ -80,9 +85,6 @@ h1 {
   background: #C1C0C0;
 }
 
-.App {
-  position: relative;
-}
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
