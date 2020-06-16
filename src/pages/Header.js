@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactBtn from './ContactBtn.js';
+import ContactBtn from '../comps/ContactBtn.js';
 import pdf from '../assets/Resume.pdf';
 
 

@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from './comps/Header';
+import Header from './pages/Header';
 import Navbar from './comps/Navbar';
-import About from './comps/About';
-import Experience from './comps/Experience';
+import About from './pages/About';
+import Experience from './pages/Experience';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
