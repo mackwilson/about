@@ -28,6 +28,11 @@ p {
   font-size: 18pt;
 }
 
+button {
+  text-decoration: none !important;
+  border-radius: 0 !important;
+}
+
 
 #text {
   width: 60%;
@@ -65,29 +70,65 @@ h1 {
   color: #46567C;
 }
 
-.Navbar {
+.Menu {
   background: #46567C;
-  text-align: left;
   position: fixed;
   top: 0px;
   width: 100%;
+  border-bottom: 1px solid #C1C0C0;
+  padding: 0;
+  padding-left: 2vw;
 }
 
 .navBtn {
   margin: 1vw;
   border-radius: 0;
-  border-color: #C1C0C0;
-  color: #C1C0C0;
+  border: 1px solid #C1C0C0;
+  color: #C1C0C0 !important;
+  max-width: 100px;
+  text-align: center;
 }
 
 .navBtn:hover {
-  color: #46567C;
+  color: #46567C !important;
   background: #C1C0C0;
 }
 
+.menu-logo {
+  margin: 0;
+}
 
-@media only screen and (max-width: 600px) {
+.material-icons {
+  color: #C1C0C0;
+}
+
+.material-icons:hover {
+  color: #46567C;
+}
+
+.navbar-toggler {
+  border: 1px solid #C1C0C0 !important;
+  border-radius: 0;
+}
+
+.navbar-toggler:hover {
+  background: #C1C0C0;
+  border: 1px solid #C1C0C0;
+  border-radius: 0;
+}
+
+
+@media only screen and (max-width: 700px) {
   #text {
-    width: 100%;
+    width: 90%;
+  }
+  h1 {
+    font-size: 50pt;
+  }
+  h2 {
+    font-size: 30pt;
+  }
+  p {
+    font-size: 20pt;
   }
 }

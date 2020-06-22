@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './pages/Header';
-import Navbar from './comps/Navbar';
+import Menu from './comps/Menu';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
@@ -12,7 +12,7 @@ import './css/App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Menu />
       <div className="appBody">
         <Header />
         <About />
