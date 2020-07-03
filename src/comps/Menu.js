@@ -37,7 +37,7 @@ function Menu() {
       />{' '}
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav">
-      <i class="material-icons">menu</i>
+      <i className="material-icons">menu</i>
     </Navbar.Toggle>
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav>
